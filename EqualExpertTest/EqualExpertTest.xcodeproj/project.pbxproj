@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ECB519032E10127400C2E2A4 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECB519022E10127400C2E2A4 /* README.rtf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ECF1B8F82E0E6CF200D95400 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ECB519022E10127400C2E2A4 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
 		ECF1B8E72E0E6CF000D95400 /* EqualExpertTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EqualExpertTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF1B8F72E0E6CF200D95400 /* EqualExpertTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EqualExpertTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF1B9012E0E6CF200D95400 /* EqualExpertTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EqualExpertTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		ECF1B8DE2E0E6CF000D95400 = {
 			isa = PBXGroup;
 			children = (
+				ECB519022E10127400C2E2A4 /* README.rtf */,
 				ECF1B8E92E0E6CF000D95400 /* EqualExpertTest */,
 				ECF1B8FA2E0E6CF200D95400 /* EqualExpertTestTests */,
 				ECF1B9042E0E6CF200D95400 /* EqualExpertTestUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB519032E10127400C2E2A4 /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

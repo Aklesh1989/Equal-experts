@@ -11,7 +11,12 @@ import SwiftUI
 struct EqualExpertTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let sendService = DefaultSendMessageService()
+            let replyService = DefaultReplyService()
+            let sendUseCase = DefaultSendMessageUseCase(service: sendService)
+            let replyUseCase = DefaultReplyMessageUseCase(service: replyService)
+            let viewModel = ChatViewModel(sendMessageUseCase: sendUseCase, replyMessageUseCase: replyUseCase)
+            ChatView(viewModel: viewModel)
         }
     }
 }
